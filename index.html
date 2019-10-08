@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Pharma</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #5151ff;">
+        <a class="navbar-brand" style="color: white;" href="#">E-Pharma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" style="padding: 10px 15px;" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" style="background-color: #3d3dec; padding: 5px 20px;">
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#partners">Our Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#offers">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#register">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="#contact">Contact</a>
+            </li>
+            <button type="button" class="btn btn-sm btn-success" data-toggle="popover" title="Cart"
+              data-content="0 items."> <i class="fa fa-cart-plus"></i> Cart</button>
+          </ul>
+          <ui class="nav-item">
+            <a class="nav-link" style="color: white;">Sign In <i class="fa fa-user-circle"></i></a>
+          </ui>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+
+      </nav>
+    </header>
+
+    <div class="container-fluid bg1" id="home">
+      <div class="jumbotron firstSection text-center">
+        <h2 class="display-5">Welcome To</h2>
+        <h2 class="display-3">E-PHARMA</h2>
+        <p class="lead">An one stop, online medical store.</p>
+        <p>Order your medical requirements just in one touch.</p>
+        <a type="button" class="btn btn-primary" href="#product"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+
+    <center>
+      <h1 class="display-5" id="product" style="position: relative; top: 0px;">Product Categories</h1>
+    </center>
+    <div id="carouselExampleControls" class="carousel slide" style="background-color: rgb(124, 123, 123);"
+      data-ride="carousel">
+      <div class="carousel-inner">
+        <center>
+          <div class="carousel-item active carousel-pad">
+            <div class="card w-50 card1">
+              <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Veternary</h5>
+                <p class="card-text">An animal's eyes have the power to speak a<br> great language.</p>
+                <p class="card-text"><b>30% OFF.</b></p>
+              </div>
+              <div class="card-footer">
+                <a href="products.html#veter" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-pad">
+            <div class="card w-50 card1">
+              <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Beauty</h5>
+                <p class="card-text">For the best and most beautiful things in<br> the world.</p>
+                <p class="card-text"><b>50% OFF.</b></p>
+              </div>
+              <div class="card-footer">
+                <a href="products.html#beauty" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-pad">
+            <div class="card w-50 card1">
+              <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Health</h5>
+                <p class="card-text">To enjoy good health, to bring true happiness<br> to one's family.</p>
+                <p class="card-text"><b>60% OFF.</b></p>
+              </div>
+              <div class="card-footer">
+                <a href="products.html#health" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+    <center>
+      <h1 class="display-5" id="product" style="position: relative; top: 0px;">Top Sellers</h1>
+    </center>
+    <div id="carouselExampleControls1" class="carousel slide" style="background-color: rgb(124, 123, 123);"
+      data-ride="carousel">
+      <div class="carousel-inner">
+        <center>
+          <div class="carousel-item active carousel-pad">
+            <div class="card w-50">
+              <img class="card-img-top" src="img/hMedicene1.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Asthalin Syrup, 100 Ml&nbsp;Rs. 50</h4>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-pad">
+            <div class="card w-50">
+              <img class="card-img-top" src="img/bMedicene2.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Incolor Primer Rose Water&nbspRs. 395</h4>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-pad">
+            <div class="card w-50">
+              <img class="card-img-top" src="img/vMedicene2.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Para Shield Plus&nbsp;Rs. 400</h4>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <center>
+      <h1 class="display-5" id="product" style="position: relative; top: 0px;">Products</h1>
+    </center>
+    <div class="py-5">
+      <div class="container">
+        <div class="row hidden-md-up">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top img-fluid" src="img/vMedicene.jpg" alt="Card image">
+                <h4 class="card-title">LIVPET&nbsp;&nbsp;Rs. 180</h4>
+                <p class="card-text">Improve liver function and appetite in dogs.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/vMedicene1.jpg" alt="Card image">
+                <h4 class="card-title">Cranberry D Mannose&nbsp;Rs. 250</h4>
+                <p class="card-text">For Cats and Dogs.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/vMedicene2.jpg" alt="Card image">
+                <h4 class="card-title">Para Shield Plus&nbsp;Rs. 400</h4>
+                <p class="card-text">Dog Flea and Tick Control Medicine.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div><br>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/bMedicene.jpg" alt="Card image">
+                <h4 class="card-title">OEM Cosmetics&nbsp;&nbsp;Rs. 150</h4>
+                <p class="card-text">Cosmetics.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/bMedicene1.jpg" alt="Card image">
+                <h4 class="card-title">Le Bonheur Yellow Peel For Whitening Pack&nbsp;Rs. 3,000</h4>
+                <p class="card-text">Cosmetics.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/bMedicene2.jpg" alt="Card image">
+                <h4 class="card-title">Incolor Primer Rose Water&nbspRs. 395</h4>
+                <p class="card-text">Clinical, Personal care.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/hMedicene.jpg" alt="Card image">
+                <h4 class="card-title">Nimesulide 100 Mg Paracetamol 325 Mg Tablets&nbsp;&nbsp;Rs. 33</h4>
+                <p class="card-text">For fever, headache, etc.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/hMedicene1.jpg" alt="Card image">
+                <h4 class="card-title">Asthalin Syrup, 100 Ml&nbsp;Rs. 50</h4>
+                <p class="card-text">For cough.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="img/hMedicene2.jpg" alt="Card image">
+                <h4 class="card-title">Saridon Tablets&nbsp;Rs. 20</h4>
+                <p class="card-text">Headache.</p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-flex bg2" id="about">
+      <div class="jumbotron secondSection">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="display-2 lead section-title">About Us</h1>
+            <br>
+            <strong>
+              <p class="lead para justify-content-center">Pharmacy-‘E-Pharma’. It is the online deals site of medications
+                supported a Indian Pharmacy, situated at Karnataka.
+                ‘E-Pharma’ pharmacy is open 24hrs all-day.
+                ‘E-Pharma’ , the pioneer in pharmacy and Indian pharmacy offers a wide determination of parapharmacy
+                items, natural drug, fragrant healing and medications (homeopathy, veterinary items, medicine and
+                over-the-counter prescriptions) at the best costs.
+              </p>
+            </strong>
+            <br>
+            <div class="container-fluid counter-gallery">
+              <div class="row text-center">
+                <div class="col">
+                  <div class="counter">
+                    <i class="fa fa-line-chart fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="1900" data-speed="1500"></h2>
+                    <p class="count-text ">Products</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="counter">
+                    <i class="fa fa-check fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="7700" data-speed="1500"></h2>
+                    <p class="count-text ">Affiliates</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="counter">
+                    <i class="fa fa-code fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+                    <p class="count-text ">Accreditations</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="counter">
+                    <i class="fa fa-male fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="1857" data-speed="1500"></h2>
+                    <p class="count-text ">Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg4" id="partners">
+      <div class="jumbotron thirdSection">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="display-2 lead section-title text-center">Our Partners</h1>
+            <br>
+            <center>
+              <div class="card-deck content-center">
+                <div class="card" style="width:200px">
+                  <img class="card-img-top partner2" src="img/partner1.png" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Netmeds</h4>
+                  </div>
+                </div>
+                <div class="card" style="width:200px">
+                  <img class="card-img-top" src="img/partner2.png" alt="Card image" style="background-color: green;">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">PharmEasy</h4>
+                  </div>
+                </div>
+              </div>
+            </center>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg4" id="offers" style="background-image: url('img/colors.jpg'); background-size: cover;">
+      <div class="jumbotron fifthSection">
+        <div class="row">
+          <div class="col-sm-12 offer">
+            <h1 class="display-5" style="position: relative; top: 20px;">Offers</h1>
+            <h2 class="display-4 text-center">Get upto</h2>
+            <h1 class="display-1 text-center">20% Off</h1>
+            <h3 class="display-6 text-center"> On your first purchase..</h3>
+            <center><button class="display-6 btn btn-round btn-light">CODE: 459379</button></center>
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal fade text-white" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: #5151ff;">
+              <h5 class="modal-title">Discounts and Offers</h5>
+              <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="background-color: #3f3ff4">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="display-4 text-center" style="position: relative; top:0px;">Get upto</h2>
+                  <h1 class="display-1 text-center" style="position: relative; top:0px;">20% Off</h1>
+                  <h3 class="display-6 text-center" style="position: relative; top:0px;"> On your first purchase..</h3>
+                  <h5 class="lead text-center">For more information click on Avail/View.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a type="button" class="btn btn-primary" href="#offers">View/Avail</a>
+              <a type="button" class="btn btn-secondary" href="#home" data-dismiss="modal">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg4" id="register">
+      <form style="position: relative; top:100px;">
+        <div class="container">
+          <h1>Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <div class="form-group">
+            <label for="name"><b>Name</b></label>
+            <input type="text" class="form-control" placeholder="Enter your name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email"><b>Email</b></label>
+            <input type="email" class="form-control" placeholder="Enter Email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Password" name="psw" required>
+          </div>
+
+          <div class="form-group">
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" onkeyup='check();' class="form-control" id="confirm_password"
+              placeholder="Repeat Password" name="psw-repeat" required>
+            <span class="lead" id="message"></span>
+          </div>
+          <hr>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+
+        <div class="container signin">
+          <p>Already have an account? <a href="signIn.html">Sign in</a>.</p>
+        </div>
+      </form>
+    </div>
+
+
+    <footer class="page-footer font-small blue pt-4 container-fluid" id="contact">
+      <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any queries? Please do not hesitate to contact us
+          directly. Our team will come back to you within
+          a matter of hours to help you.
+        </p>
+        <div class="row" style="padding: 10px;">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="name" class="">Your name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="email" class="">Your email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="eg: abc@gmail.com">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <label for="subject" class="">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <label for="message">Your message</label>
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                      placeholder="Your message goes here..."></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="text-center text-md-left">
+              <center>
+                <a class="btn btn-primary text-white" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </center>
+            </div>
+            <div class="status"></div>
+          </div>
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fa fa-envelope mt-4 fa-2x"></i>
+                <p>contact@e-pharma.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> e-pharma.com</a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+      $(document).ready(function () {
+        $("#myModal").modal('show');
+      });
+      (function ($) {
+        $.fn.countTo = function (options) {
+          options = options || {};
+
+          return $(this).each(function () {
+            var settings = $.extend({}, $.fn.countTo.defaults, {
+              from: $(this).data('from'),
+              to: $(this).data('to'),
+              speed: $(this).data('speed'),
+              refreshInterval: $(this).data('refresh-interval'),
+              decimals: $(this).data('decimals')
+            }, options);
+
+            var loops = Math.ceil(settings.speed / settings.refreshInterval),
+              increment = (settings.to - settings.from) / loops;
+            var self = this,
+              $self = $(this),
+              loopCount = 0,
+              value = settings.from,
+              data = $self.data('countTo') || {};
+
+            $self.data('countTo', data);
+            if (data.interval) {
+              clearInterval(data.interval);
+            }
+            data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+            render(value);
+
+            function updateTimer() {
+              value += increment;
+              loopCount++;
+
+              render(value);
+
+              if (typeof (settings.onUpdate) == 'function') {
+                settings.onUpdate.call(self, value);
+              }
+
+              if (loopCount >= loops) {
+                $self.removeData('countTo');
+                clearInterval(data.interval);
+                value = settings.to;
+
+                if (typeof (settings.onComplete) == 'function') {
+                  settings.onComplete.call(self, value);
+                }
+              }
+            }
+
+            function render(value) {
+              var formattedValue = settings.formatter.call(self, value, settings);
+              $self.html(formattedValue);
+            }
+          });
+        };
+
+        $.fn.countTo.defaults = {
+          from: 0,
+          to: 0,
+          speed: 1000,
+          refreshInterval: 100,
+          decimals: 0,
+          formatter: formatter,
+          onUpdate: null,
+          onComplete: null
+        };
+
+        function formatter(value, settings) {
+          return value.toFixed(settings.decimals);
+        }
+      }(jQuery));
+      jQuery(function ($) {
+        $('.count-number').data('countToOptions', {
+          formatter: function (value, options) {
+            return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+          }
+        });
+        $('.timer').each(count);
+
+        function count(options) {
+          var $this = $(this);
+          options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+          $this.countTo(options);
+        }
+      });
+      var check = function () {
+        if (document.getElementById('password').value ==
+          document.getElementById('confirm_password').value) {
+          document.getElementById('message').style.color = 'green';
+          document.getElementById('message').innerHTML = 'matching';
+        } else {
+          document.getElementById('message').style.color = 'red';
+          document.getElementById('message').innerHTML = 'not matching';
+        }
+      }
+    </script>
+  </body>
+
+</html>

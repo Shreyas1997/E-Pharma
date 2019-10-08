@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg1 {
+    background-attachment: fixed;
+    background-image: url("img/section1.jpg");
+    height: 92%; 
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  .firstSection{
+      position: relative;
+      margin: 0px auto; 
+      background-color: #fbfbfbb8;
+      top: 170px;      
+  }
+
+  .bg2 {
+    background-image: url('img/laboratory.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #2c2a2a;
+  }
+  .secondSection{
+    position: relative;
+    margin: 0px auto; 
+    background-color: #b8b2b2cf;
+    height: 100%;
+  }
+
+  .para{
+      position: relative;
+      top: 50px;
+      color: black;
+  }
+  .counter-gallery{
+        position: relative; 
+        top:50px;
+    }
+  .carousel-pad{
+      padding: 100px;
+  }
+  .card1{
+      height: 10%;;
+  }
+   
+  @media only screen and (max-width: 600px) {
+    .para {
+        position: relative;
+        top: 0;
+        color: black;
+    }
+    .section-title{
+        position: relative;
+        top: 25px;
+        font-size: 50px;
+    }
+    .counter-gallery{
+        position: relative;
+        top: -30px;
+        padding: 0px;
+    }
+    .carousel-pad{
+        padding: 0px;
+    }
+    
+  }
+
+.bg4{
+    background-color: whitesmoke;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirdSection{
+    position: relative;
+    margin: 0px auto; 
+    background-color: #b8b2b200;
+    height: 100%;
+}
+
+.fifthSection{
+    position: relative;
+    margin: 0px auto; 
+    background-color: #b8b2b200;
+    height: 100%;
+    color: white;
+}
+.display-4, .display-1, .display-6{
+    position: relative;
+    top: 50px;
+}
